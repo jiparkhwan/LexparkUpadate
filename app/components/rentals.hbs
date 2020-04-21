@@ -1,0 +1,15 @@
+<div class="properties">
+  
+  <label>
+    <span>Search By City Below!</span>
+    <Input @value={{this.query}} class="filter" />
+  </label>
+
+  <ul class="results">
+    <Rentals::Filter @properties={{@properties}} @query={{this.query}} as |results|>
+        {{#each results as |rental|}}
+            <li><Rental @rental={{rental}} /></li>
+        {{/each}}
+    </Rentals::Filter>
+  </ul>
+</div>
