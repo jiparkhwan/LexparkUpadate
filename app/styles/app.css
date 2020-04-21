@@ -6,6 +6,35 @@
   box-sizing: border-box;
 }
 
+
+
+/* ADDED FOR THE NEW RENTALS */
+#newImages {
+  margin-top: 100px;
+
+}
+#newDetails {
+  top:200px;
+}
+#newproperty {
+ margin: 10px;
+}
+#newprice {
+  margin-bottom: 100px;
+}
+#newpropertyTitle{
+  margin-bottom: 100px;
+
+}
+#propertyTitle{
+  padding-top: 20px;
+  padding-left: 1%;
+  color: #33065e;
+}
+/* ADDED FOR THE NEW RENTALS */
+
+
+
 body {
   font-family: 'Arial Rounded MT', Arial, Helvetica, sans-serif;
   background: #ffffff;
